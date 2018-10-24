@@ -1,0 +1,171 @@
+:root {
+    --odd-cyan: #29ECBC;
+    --odd-cyan-dark: #11C094;
+    --odd-green: #0BFF80;
+    --odd-pink: #DC005B;
+    --odd-text-black: #191919;
+    --light-grey: #C8C8C8;
+    --white: #FFFFFF;
+}
+
+body {
+    color: var(--odd-text-black);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: auto;
+}
+
+header {
+    background-color: var(--white);
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.25em;
+    left: 0px;
+    padding-top: 20px;
+    position: fixed;
+    text-align: center;
+    top: 0px;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+    width: 150px;
+}
+
+nav li:hover {
+    cursor: pointer;
+    background-color: var(--odd-cyan);
+}
+
+nav li a {
+    color: var(--odd-text-black);
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+br {
+    line-height: 1.5em;
+}
+
+.border {
+    border: 1px solid red;
+}
+
+.row {
+    display: flex;
+}
+
+.row div {
+    padding: 10px;
+}
+
+.row img {
+    padding: 20px;
+    width: 128px;
+}
+
+.row p {
+    text-align: left;
+}
+
+.p-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.pricing-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pricing-row div {
+    border: 1px solid var(--light-grey);
+    margin: 20px;
+    min-width: 300px;
+    padding: 0px 20px 20px 20px;
+    text-align: center;
+}
+
+.pricing-row ul {
+    text-align: left;
+    margin: 0px auto 20px auto;
+    max-width: 200px;
+}
+
+.pricing-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#header-img {
+    margin: auto;
+    text-align: center;
+    width: 75px;
+}
+
+#section-features {
+    margin: 190px auto 0px auto;
+    max-width: 700px;
+    text-align: center;
+}
+
+#email {
+    border: 1px solid var(--light-grey);
+    border-radius: 5px;
+    display: block;
+    margin: 0px auto 20px auto;
+    max-width: 250px;
+    padding: 10px;
+    width: 100%;
+}
+
+.pricing-row button,
+#submit {
+    background-color: var(--odd-cyan);
+    border: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+
+.pricing-row button:hover,
+#submit:hover {
+    cursor: pointer;
+    background-color: var(--odd-cyan-dark);
+}
+
+#section-how-it-works {
+    padding: 50px 0px;
+    text-align: center;
+}
+
+#section-footer {
+    background-color: var(--light-grey);
+    padding: 5px;
+    text-align: center;
+}
+
+@media (max-width: 519px) {
+    .row img {
+        display: none;
+    }
+
+    #section-features {
+        margin-top: 220px;
+    }
+}

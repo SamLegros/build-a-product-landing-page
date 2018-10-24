@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>freeCodeCamp - Project - Build a Product Landing Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="header">
+        <img src="https://static1.squarespace.com/static/5a218fdaace86421c7aa94b3/t/5a7c4c5e71c10b9941f8b7af/1535721307709/?format=1500w" alt="Oddball logo" id="header-img">
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#section-features">Features</a></li>
+                <li><a class="nav-link" href="#section-how-it-works">How It Works</a></li>
+                <li><a class="nav-link" href="#section-pricing">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="section-features">
+        <h1>Bounce and create your own music masterpiece.</h1>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+            <input type="submit" id="submit" value="GET STARTED">
+        </form>
+        <div class="row">
+            <div>
+                <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTIuMDAyIDUxMi4wMDIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMi4wMDIgNTEyLjAwMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI1MTJweCIgaGVpZ2h0PSI1MTJweCI+CjxnPgoJPHBhdGggc3R5bGU9ImZpbGw6IzAwMDAwMTsiIGQ9Ik00NzMuMDE2LDMwMS4wMzVMMzU4LjEyNSw0MTUuOTIyTDE5OC4xNjQsMjU1Ljk2YzM2LjgyOC00NC4wMDksMzQuNTgyLTEwOS44NDgtNi43NTItMTUxLjE4MiAgIGMtMjEuMTc4LTIxLjE3OC00OS4zMzYtMzIuODQxLTc5LjI4NS0zMi44NDFjLTI5Ljk1MSwwLTU4LjEwNywxMS42NjMtNzkuMjg1LDMyLjg0MUMxMS42NjIsMTI1Ljk1NiwwLDE1NC4xMTMsMCwxODQuMDY0ICAgYzAsMjkuOTUsMTEuNjYyLDU4LjEwOCwzMi44NDIsNzkuMjg3YzIxLjE3OCwyMS4xNzcsNDkuMzM0LDMyLjg0LDc5LjI4NSwzMi44NGMxMi4zMTgsMCwyNC4zMzItMS45NzgsMzUuNjg0LTUuNzczbDM2LjkyNCwzNi45MjUgICBjMS45NTMsMS45NTIsNC41MTIsMi45MjksNy4wNywyLjkyOWMyLjU2MSwwLDUuMTE5LTAuOTc3LDcuMDcyLTIuOTI5YzMuOTA0LTMuOTA1LDMuOTA0LTEwLjIzNywwLTE0LjE0M2wtMzEuNTA2LTMxLjUwNyAgIGM1Ljg1Mi0zLjMyMiwxMS40MjItNy4xOTcsMTYuNjU0LTExLjU4NmwxNDkuOTU3LDE0OS45NThoLTkyLjczMWMtNS41MjMsMC0xMCw0LjQ3OC0xMCwxMHM0LjQ3NywxMCwxMCwxMEg0NzUgICBjNS41MjMsMCwxMC00LjQ3OCwxMC0xMHMtNC40NzctMTAtMTAtMTBoLTkyLjczMmwxMDQuODkxLTEwNC44ODdjMy45MDQtMy45MDUsMy45MDQtMTAuMjM3LDAtMTQuMTQyICAgQzQ4My4yNTQsMjk3LjEzMiw0NzYuOTI0LDI5Ny4xMzEsNDczLjAxNiwzMDEuMDM1eiBNMjAyLjE2OCwxNjQuODIyYy0xOC41MTQtMC41MTUtMzYuMTE3LTguMDI0LTQ5LjQ0Ny0yMS4zNTMgICBjLTEzLjM1LTEzLjM1Mi0yMC44NTktMzAuOTc1LTIxLjM1NS00OS41MWMxNy4yNjYsMy42NSwzMy4xMzMsMTIuMTksNDUuOTA0LDI0Ljk2MkMxOTAuMzE2LDEzMS45NjcsMTk4LjYsMTQ3Ljk5LDIwMi4xNjgsMTY0LjgyMnogICAgTTIyLjAyLDIwMy4zMDFjMTguNTM3LDAuNDk2LDM2LjE2LDguMDA2LDQ5LjUxMiwyMS4zNTljMTMuMzQyLDEzLjM0MywyMC44NTUsMzAuOTcyLDIxLjM1NSw0OS41MDkgICBjLTE3LjI2Ni0zLjY1LTMzLjEzMS0xMi4xODktNDUuOTAyLTI0Ljk2MUMzNC4yMTEsMjM2LjQzNSwyNS42NywyMjAuNTY3LDIyLjAyLDIwMy4zMDF6IE0xNTIuNTU1LDI2Ni44NzVsLTYuMDU3LTYuMDU3ICAgYy0zLjkwNi0zLjkwMy0xMC4yMzYtMy45MDUtMTQuMTQzLDBjLTMuNjM3LDMuNjM2LTMuODgzLDkuMzcxLTAuNzUsMTMuMjk3Yy02LjA4LDEuMzAzLTEyLjMzMiwyLjAwMy0xOC42ODksMi4wNTYgICBjMC4wMTQtMjQuNTU1LTkuNjI1LTQ4LjAzNy0yNy4yNDQtNjUuNjUzYy0xNy42MjctMTcuNjI5LTQxLjA5Mi0yNy4yNjMtNjUuNjUyLTI3LjI0NWMwLjIwMy0yNC4zMTIsOS43NS00Ny4xNCwyNi45NjUtNjQuMzUzICAgYzE3LjIxMy0xNy4yMTMsNDAuMDQxLTI2Ljc2MSw2NC4zNTItMjYuOTY0Yy0wLjAxOCwyNC41NTQsOS42MTUsNDguMDI1LDI3LjI0Miw2NS42NTRjMTcuNjA1LDE3LjYwNCw0MS4wNjMsMjcuMjQzLDY1LjU5NiwyNy4yNDMgICBjMC4wMDYsMCwwLjAxLTAuMDAxLDAuMDE2LTAuMDAxYy0wLjE3MiwyMC4xODktNi45MTYsNDAuMzI1LTIwLjI0LDU2Ljg5M2wtMjguNTAyLTI4LjUwMmMtMy45MDQtMy45MDQtMTAuMjM2LTMuOTA1LTE0LjE0MywwICAgYy0zLjkwNCwzLjkwNS0zLjkwNCwxMC4yMzcsMCwxNC4xNDJsMjguNTA0LDI4LjUwNEMxNjQuNDQxLDI2MC4yMTgsMTU4LjY1NiwyNjMuODksMTUyLjU1NSwyNjYuODc1eiIvPgoJPHBhdGggc3R5bGU9ImZpbGw6IzAwMDAwMTsiIGQ9Ik01MDkuMDk0LDI3OS4xMzljLTMuODkzLTMuOTE2LTEwLjIyNy0zLjkzNS0xNC4xNDEtMC4wNDJsLTAuNDk0LDAuNDkgICBjLTMuOTE2LDMuODk0LTMuOTM2LDEwLjIyNS0wLjA0MSwxNC4xNDJjMS45NTMsMS45NjYsNC41MjIsMi45NSw3LjA5MiwyLjk1YzIuNTQ5LDAsNS4xLTAuOTY5LDcuMDQ5LTIuOTA4bDAuNDk0LTAuNDkgICBDNTEyLjk2OSwyODkuMzg3LDUxMi45ODgsMjgzLjA1Niw1MDkuMDk0LDI3OS4xMzl6Ii8+Cgk8cGF0aCBzdHlsZT0iZmlsbDojMDAwMDAxOyIgZD0iTTIxOS4yMDksMzMzLjUzNmMtMy44OTUtMy45MTYtMTAuMjI1LTMuOTM1LTE0LjE0My0wLjA0MWMtMy45MTYsMy44OTUtMy45MzQsMTAuMjI2LTAuMDQxLDE0LjE0MyAgIGwwLjE2OCwwLjE2OWMxLjk1NSwxLjk2Niw0LjUyMywyLjk0OSw3LjA5MiwyLjk0OWMyLjU1MSwwLDUuMS0wLjk2OSw3LjA1MS0yLjkwOGMzLjkxNi0zLjg5NSwzLjkzNi0xMC4yMjYsMC4wNDEtMTQuMTQzICAgTDIxOS4yMDksMzMzLjUzNnoiLz4KCTxwYXRoIHN0eWxlPSJmaWxsOiMwMDAwMDE7IiBkPSJNMjkwLjU0NSwzMTcuNTI2YzEuOTUzLDEuOTUyLDQuNTEyLDIuOTI5LDcuMDcsMi45MjlzNS4xMTktMC45NzcsNy4wNzItMi45MjkgICBjMy45MDQtMy45MDUsMy45MDQtMTAuMjM3LDAtMTQuMTQzbC00NS45MzUtNDUuOTM4Yy0zLjkwNi0zLjkwMy0xMC4yMzYtMy45MDQtMTQuMTQzLDBjLTMuOTA2LDMuOTA1LTMuOTA2LDEwLjIzNywwLDE0LjE0MyAgIEwyOTAuNTQ1LDMxNy41MjZ6Ii8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="icon of ball bouncing">
+            </div>
+            <div>
+                <p class="p-title">Bounce</p>
+                <p>Take the ball anywhere with you and get bouncing. Strike it, scrape it, rub it and experiment to see what different sounds you can create.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDQ0IDQ0IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA0NCA0NCIgd2lkdGg9IjI1NnB4IiBoZWlnaHQ9IjI1NnB4Ij4KICA8Zz4KICAgIDxnPgogICAgICA8cGF0aCBkPSJtNDMsMTloLTVjLTAuNTUyLDAtMSwwLjQ0Ny0xLDF2OGMwLDAuNTUzLTAuNDQ4LDEtMSwxcy0xLTAuNDQ3LTEtMXYtMjBjMC0xLjY1Ny0xLjM0My0zLTMtM3MtMywxLjM0My0zLDN2MjhjMCwwLjU1My0wLjQ0OCwxLTEsMXMtMS0wLjQ0Ny0xLTF2LTI1YzAtMS42NTctMS4zNDMtMy0zLTNzLTMsMS4zNDMtMywzdjE0YzAsMC41NTMtMC40NDgsMS0xLDFzLTEtMC40NDctMS0xdi0xN2MwLTEuNjU3LTEuMzQzLTMtMy0zcy0zLDEuMzQzLTMsM3YyNGMwLDAuNTUzLTAuNDQ4LDEtMSwxcy0xLTAuNDQ3LTEtMXYtMTZjMC0xLjY1Ny0xLjM0My0zLTMtM3MtMywxLjM0My0zLDN2M2gtNGMtMC41NTIsMC0xLDAuNDQ3LTEsMSAwLDAuNTUzIDAuNDQ4LDEgMSwxaDVjMC41NTIsMCAxLTAuNDQ3IDEtMXYtNGMwLTAuNTUzIDAuNDQ4LTEgMS0xczEsMC40NDcgMSwxdjE2YzAsMS42NTcgMS4zNDMsMyAzLDNzMy0xLjM0MyAzLTN2LTI0YzAtMC41NTMgMC40NDgtMSAxLTFzMSwwLjQ0NyAxLDF2MTdjMCwxLjY1NyAxLjM0MywzIDMsM3MzLTEuMzQzIDMtM3YtMTRjMC0wLjU1MyAwLjQ0OC0xIDEtMXMxLDAuNDQ3IDEsMXYyNWMwLDEuNjU3IDEuMzQzLDMgMywzczMtMS4zNDMgMy0zdi0yOGMwLTAuNTUzIDAuNDQ4LTEgMS0xczEsMC40NDcgMSwxdjIwYzAsMS42NTcgMS4zNDMsMyAzLDNzMy0xLjM0MyAzLTN2LTdoNGMwLjU1MiwwIDEtMC40NDcgMS0xIDAtMC41NTMtMC40NDgtMS0xLTF6IiBmaWxsPSIjMDAwMDAwIi8+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4K" alt="icon of sound waves">
+            </div>
+            <div>
+                <p class="p-title">Create</p>
+                <p>Our app allows you to create your own whole song. Choose sonds from your own library, create and loop beats + more.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjI1NnB4IiBoZWlnaHQ9IjI1NnB4Ij4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNNDc3LjYwNiwxMjguMDU1QzQ0My40MzEsNjguODYzLDM4OC4yNTEsMjYuNTIsMzIyLjIyOSw4LjgzQzI1Ni4yMDgtOC44NjIsMTg3LjI1LDAuMjE3LDEyOC4wNTUsMzQuMzk0ICAgIEM2OC44NjEsNjguNTcsMjYuNTIsMTIzLjc1LDguODMsMTg5Ljc3MmMtMTcuNjksNjYuMDIxLTguNjExLDEzNC45ODEsMjUuNTY0LDE5NC4xNzMgICAgQzY4LjU2OCw0NDMuMTM3LDEyMy43NSw0ODUuNDgsMTg5Ljc3MSw1MDMuMTdjMjIuMDQ2LDUuOTA4LDQ0LjQxNyw4LjgzLDY2LjY0Niw4LjgzYzQ0LjMzOSwwLDg4LjEwMS0xMS42MjksMTI3LjUyOS0zNC4zOTMgICAgYzU5LjE5Mi0zNC4xNzUsMTAxLjUzNS04OS4zNTUsMTE5LjIyNS0xNTUuMzc3QzUyMC44NjIsMjU2LjIwNyw1MTEuNzgxLDE4Ny4yNDksNDc3LjYwNiwxMjguMDU1eiBNNDc3LjQyOSwzMTUuMzMzICAgIGMtMTUuODQ4LDU5LjE0Ni01My43OCwxMDguNTgxLTEwNi44MSwxMzkuMTk3Yy01My4wMjgsMzAuNjE3LTExNC44MDYsMzguNzQ5LTE3My45NTIsMjIuOTAzICAgIGMtNTkuMTQ3LTE1Ljg0OC0xMDguNTgxLTUzLjc4LTEzOS4xOTgtMTA2LjgxYy0zMC42MTYtNTMuMDI4LTM4Ljc0OS0xMTQuODA3LTIyLjktMTczLjk1NCAgICBDNTAuNDE4LDEzNy41MjMsODguMzUsODguMDksMTQxLjM3OSw1Ny40NzJjMzUuMzI1LTIwLjM5NSw3NC41MjQtMzAuODEyLDExNC4yNDktMzAuODEyYzE5LjkxLDAsMzkuOTU5LDIuNjE4LDU5LjcwMiw3LjkwOSAgICBjNTkuMTQ2LDE1Ljg0OCwxMDguNTgxLDUzLjc4LDEzOS4xOTcsMTA2LjgxQzQ4NS4xNDQsMTk0LjQwOCw0OTMuMjc4LDI1Ni4xODYsNDc3LjQyOSwzMTUuMzMzeiIgZmlsbD0iIzAwMDAwMCIvPgoJPC9nPgo8L2c+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTM3OC43NzgsMjMxLjg1MmwtMTY0LjUyNi05NC45OWMtOC43MzEtNS4wNDEtMTkuMTU1LTUuMDM5LTI3Ljg4Ni0wLjAwMWMtOC43MzEsNS4wNC0xMy45NDQsMTQuMDY5LTEzLjk0NCwyNC4xNXYxODkuOTggICAgYzAsMTAuMDgxLDUuMjEyLDE5LjEwOSwxMy45NDQsMjQuMTVjNC4zNjUsMi41MjEsOS4xNTIsMy43OCwxMy45NDEsMy43OGM0Ljc5LDAsOS41NzktMS4yNjIsMTMuOTQ0LTMuNzgxbDE2NC41MjgtOTQuOTg5ICAgIGM4LjczLTUuMDQyLDEzLjk0MS0xNC4wNywxMy45NDEtMjQuMTUxQzM5Mi43MiwyNDUuOTIsMzg3LjUwOCwyMzYuODkyLDM3OC43NzgsMjMxLjg1MnogTTM2NS40NTIsMjU3LjA3NGwtMTY0LjUyNyw5NC45ODkgICAgYy0wLjIwMSwwLjExNy0wLjYyLDAuMzU4LTEuMjM2LDBjLTAuNjE4LTAuMzU3LTAuNjE4LTAuODM5LTAuNjE4LTEuMDcxdi0xODkuOThjMC0wLjIzMiwwLTAuNzE0LDAuNjE4LTEuMDcxICAgIGMwLjI0Mi0wLjE0LDAuNDUzLTAuMTg4LDAuNjMzLTAuMTg4YzAuMjgsMCwwLjQ4MiwwLjExNywwLjYwNSwwLjE4OGwxNjQuNTI2LDk0Ljk5YzAuMjAxLDAuMTE2LDAuNjE4LDAuMzU3LDAuNjE4LDEuMDcxICAgIEMzNjYuMDcxLDI1Ni43MTYsMzY1LjY1MiwyNTYuOTU4LDM2NS40NTIsMjU3LjA3NHoiIGZpbGw9IiMwMDAwMDAiLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik00MTMuMzAzLDEzNC40NGMtMzEuNjg5LTQwLjkzOC03OS4zMjYtNjguNDQyLTEzMC42OTgtNzUuNDYxYy03LjI4My0wLjk5Ny0xNC4wMDksNC4xMDYtMTUuMDA2LDExLjM5OSAgICBjLTAuOTk1LDcuMjkxLDQuMTA4LDE0LjAwOSwxMS4zOTksMTUuMDA2YzQ0LjUxMiw2LjA4MSw4NS43ODMsMjkuOTA5LDExMy4yMzIsNjUuMzY5YzIuNjI2LDMuMzkyLDYuNTY1LDUuMTY4LDEwLjU0Niw1LjE2OCAgICBjMi44NDksMCw1LjcyLTAuOTA5LDguMTQ2LTIuNzg5QzQxNi43NDEsMTQ4LjYyOCw0MTcuODA3LDE0MC4yNTksNDEzLjMwMywxMzQuNDR6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" alt="icon of play button">
+            </div>
+            <div>
+                <p class="p-title">Play</p>
+                <p>Have fun and express yourself, see where your creativity takes you! You can share work with our community of music lovers.</p>
+            </div>
+        </div>
+    </section>
+    <section id="section-how-it-works">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/lmoUfasyK6s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </section>
+    <section id="section-pricing">
+        <div class="pricing-row">
+            <div>
+                <p class="pricing-title">Pledge £49 or more</p>
+                <p>
+                    Early Bird - One Ball Pack<br>
+                    40% discount<br>
+                    Includes:<br>
+                </p>
+                <ul>
+                    <li>One Oddball</li>
+                    <li>One charging cable</li>
+                    <li>Free App download</li>
+                </ul>
+                <button>SELECT</button>
+            </div>
+            <div>
+                <p class="pricing-title">Pledge £115 or more</p>
+                <p>
+                    Two Ball Pack<br>
+                    32% discount<br>
+                    Includes:<br>
+                </p>
+                <ul>
+                    <li>Two Oddball</li>
+                    <li>Two charging cables</li>
+                    <li>Free App download</li>
+                </ul>
+                <button>SELECT</button>
+            </div>
+            <div>
+                <p class="pricing-title">Pledge £329 or more</p>
+                <p>
+                    Six Ball Pack<br>
+                    36% discount<br>
+                    Includes:<br>
+                </p>
+                <ul>
+                    <li>Six Oddball</li>
+                    <li>Six charging cables</li>
+                    <li>Free App download</li>
+                </ul>
+                <button>SELECT</button>
+            </div>
+        </div>
+    </section>
+    <section id="section-footer">
+        <p>Information from <a href="https://www.oddballing.com/" target="_blank">Oddball website</a> and <a href="https://www.kickstarter.com/projects/1535627339/oddball-the-drum-machine-crammed-in-a-ball" target="_blank">Oddball Kickstarter page</a>.</p>
+        <p>Icons from <a href="https://www.flaticon.com/" target="_blank">Flaticon website</a>, <a href="https://www.flaticon.com/profile/license/fi/SwkgUxJEL3JglsTgaFIv-7Lfhb7w7SVQlh01IZZJdyGnhjBqcVEEONRaeERplDbbyqb7oid4HMZp4Eo3zn88dgIH9TQIDkDLMQj9-l3279uJ9tZi9OSKtycFzhjlUVmwl47Room7OOx-AU0UrrOlwBW1l0qLI7kRFZQvALbv6gmozY45rpqlZCa5GKodYNRjA9MhFkqJrtBI8oUKDM2hxg,," target="_blank">license for icon use</a>.</p>
+    </section>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
